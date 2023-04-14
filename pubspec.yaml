@@ -18,14 +18,32 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_launcher_icons: "^0.9.2"
+  flutter_launcher_icons: "^0.13.0"
 
   flutter_lints: ^2.0.0
 
 flutter_icons:
-  android: "launcher_icon"
+  android: "ic_launcher"
   ios: true
   image_path: "asset/icons/meal_app_icon.png"
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: asset/fonts/Raleway-Regular.ttf
+        - asset: asset/fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: asset/fonts/Raleway-Black.ttf
+          weight: 900
+    - family: RobotoCondensed
+      fonts:
+        - asset: asset/fonts/RobotoCondensed-Regular.ttf
+        - asset: asset/fonts/RobotoCondensed-Light.ttf
+          weight: 300
+        - asset: asset/fonts/RobotoCondensed-Bold.ttf
+          weight: 700
+        - asset: asset/fonts/RobotoCondensed-Italic.ttf
+          style: italic
